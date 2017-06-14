@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#calcular de nafta para clio (localidad las flores)
+#calcular nafta para clio (localidad las flores)
 
 km = input ("ingrese la cantidad de kilometros a destino: ")
 nafta = (km*6.0/100)
