@@ -6,7 +6,7 @@ km = input ("ingrese la cantidad de kilometros a destino: ")
 nafta = (km*6.0/100)
 
 print (("cantidad de litros a destino: %s litros ") %(nafta))
-gasto = (nafta*22)
+gasto = (nafta*20.75)
 
 print (("haciendo %s kilometros el clio gasta mas o menos: %s pesos ") % (km, gasto))
 
@@ -16,7 +16,7 @@ if (tiempo) <= 59:
 
 	print (("tiempo estimativo de llegada a destino: %s minutos") % (tiempo))
 
-hora = (tiempo/60.0)
+hora = (tiempo/60.00)
 
 if (hora) >= 1:
 
