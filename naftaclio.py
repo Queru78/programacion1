@@ -18,7 +18,7 @@ if (tiempo) <= 59:
 
 hora = (tiempo/60.00)
 
-if (hora) >= 1:
+if (hora) >= 0.6:
 
 	print (("tiempo estimativo de llegada a destino: %s horas") % (hora))
 
